@@ -1,0 +1,23 @@
+{
+  "name": "githubactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroblome/githubactions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroblome/githubactions/issues"
+  },
+  "homepage": "https://github.com/pedroblome/githubactions#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.33.1"
+  }
+}
